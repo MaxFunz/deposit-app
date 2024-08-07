@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "deposit-app"
+version = "0.1.0"
+description = ""
+authors = ["MaxFunz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.100.0"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0"
+psycopg2-binary = "^2.9"
+pydantic = "^2.0"
+python-dateutil = "^2.8.2"
+
+
+[tool.poetry.dev-dependencies]
+httpx = "^0.23.0"
+pytest = "^7.0"
+pytest-cov = "^3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
